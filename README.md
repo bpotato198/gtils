@@ -4,7 +4,7 @@ Gtils is a rewrite of Coreutils in Go
 *currently has*
 
 
-gtouch (touch)
+gmkdir (mkdir)
 gls (ls)
 webchck (checks if a website is up)
 
@@ -19,6 +19,6 @@ webchck (checks if a website is up)
 
 gls => `gls` or `gls /path/to/something`
 
-gtouch => `gtouch filename`
+gmkdir => `gtouch dirname`
 
 webchck => `webchck URL`
