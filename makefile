@@ -4,12 +4,12 @@ gls:
 webchck:
 	go build -o webchck ./gtils-webchck
 
-gtouch:
-	go build -o gtouch ./gtils-touch
+gmkdir:
+	go build -o gmkdir ./gtils-mkdir
 
 install:
-	go build -o gtouch ./gtils-touch && go build -o webchck ./gtils-webchck && go build -o gls ./gtils-ls && mv webchck gtouch gls /usr/bin/
+	go build -o gtouch ./gtils-mkdir && go build -o webchck ./gtils-webchck && go build -o gls ./gtils-ls && mv webchck gmkdir gls /usr/bin/
 
 
 build:
-	go build -o gtouch ./gtils-touch && go build -o webchck ./gtils-webchck && go build -o gls ./gtils-ls
+	go build -o gtouch ./gtils-mkdir && go build -o webchck ./gtils-webchck && go build -o gls ./gtils-ls
